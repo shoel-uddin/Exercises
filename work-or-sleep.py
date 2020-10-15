@@ -27,3 +27,9 @@ if int(0) or int(6):
     
 else:
     print("Go to work")
+
+# if day == 0 or day == 6:
+#     Print ("Sleep in!")
+
+# else:
+#     print ("Go to work")
