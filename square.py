@@ -15,7 +15,7 @@ while i < 5:
     print ("*" * 5)
     i += 1
 
-rows = 5
-stars = "*****\n"
+# rows = 5
+# stars = "*****\n"
 
-print (stars * rows)
+# print (stars * rows)
