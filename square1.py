@@ -1,4 +1,4 @@
-side = int(5)
+side = int(input("Please Enter any Side of a Square  : "))
 i = 0
 print("Square Star Pattern") 
 
