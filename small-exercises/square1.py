@@ -10,8 +10,13 @@
 #     i = i + 1
 #     print('')
 
-# i = int(input("Give me a number"))
-# stars = ("*" * i)+"\n"
-# print(stars * i)
+i = int(input("Give me a number"))
+stars = ("*" * i)+"\n"
+print(stars * i)
 
 
+# num = int (input("enter a number:\n"))
+# for i in range (num):
+#     for j in range (num):
+#         print ("*", end = " ")
+#     print (" ")

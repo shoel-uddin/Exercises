@@ -3,8 +3,10 @@ service = input ("Level of service (Good, fair, bad)?")
 
 if service == "good": 
     tip = total * .20
-# fair = total * .15
-# bad = total * .10
+elif service == "fair": 
+    tip = total * .15
+elif service == "bad": 
+    tip = total * .10
  
 ta = total + tip
 
