@@ -1,3 +1,10 @@
+num = int(input ("pick a number for box \n"))
+
+i = 0
+while i < num:
+    print ("* " * num)
+    i += 1
+
 # side = int(input("Please Enter any Side of a Square  : "))
 # i = 0
 # print("Square Star Pattern") 
@@ -20,3 +27,4 @@ print(stars * i)
 #     for j in range (num):
 #         print ("*", end = " ")
 #     print (" ")
+
