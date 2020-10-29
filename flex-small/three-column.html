@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Column</title>
+    <style>
+        .container {
+            display: flex;
+            height: 100px;
+        }
+        .column {
+            display: flex;
+            flex-grow: 1;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .red {
+            background: rgb(175, 94, 94);
+        }
+        .blue {
+            background: rgb(78, 78, 170);
+        }
+        .yellow{
+            background: rgb(190, 190, 103);
+        }
+        .number {
+            color: rgb(3, 0, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red column">
+            <div class="number">
+                1
+            </div> 
+        </div>
+        <div class="blue column">
+            <div class="number">
+                2
+            </div>
+        </div>
+        <div class="yellow column">
+            <div class="number">
+                3
+            </div>
+        </div>
+    </div>
+</body>
+</html>
